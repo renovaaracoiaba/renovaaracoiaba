@@ -12,7 +12,6 @@ body {
     padding: 0 3rem;
 }
 
-
 @media screen and (max-width: 580px) {
     .container {
         padding: 0 2rem;
@@ -134,8 +133,6 @@ nav a#toggle-btn {
         text-indent: 25px;
         background: #282627;
         color: #8d8273;
-        padding-bottom: 0.5em;
-        padding-top: 0.5em;
     }
     nav a:hover {
         color: #6c6c6c;
@@ -156,8 +153,6 @@ nav a#toggle-btn {
         color: #8d8273;
         width: 100%;
         position: relative;
-        padding-top: 1em;
-        padding-bottom: 1em;
     }
     .menu:before, .menu::after {
         content: "";
@@ -181,24 +176,8 @@ nav a#toggle-btn {
     overflow-y: hidden;
 }
 
-/* 
 .section-hero .container {
     margin-top: 34vh;
-} */
-
-.renova-home {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.img-lago {
-    background-image: url('../images/renova-lago.jpg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .section-hero h2 {
@@ -228,16 +207,12 @@ nav a#toggle-btn {
     text-align: justify;
 }
 
-.overview-content p {
-    font-size: 1.2em;
-}
-
 @media screen and (max-width: 580px) {
     .overview-content {
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: repeat(1, 1fr);        
-        text-align: left;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: justify;
     }
 }
 
@@ -267,7 +242,6 @@ nav a#toggle-btn {
     grid-gap: 80px;
     grid-template-columns: repeat(2, 1fr);
     text-align: justify;
-    font-size: 1.1em;
 }
 
 @media screen and (max-width: 580px) {
@@ -313,35 +287,7 @@ input::placeholder {
     font-weight: 400;
 }
 
-/* members */
-
-#members {
-    background: #282627;
-    padding: 8rem 0;
-}
-
-.members-content {
-    display: grid;
-    grid-gap: 80px;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: justify;
-}
-
-.members-content p {
-    font-size: 1.2em;
-}
-
-@media screen and (max-width: 580px) {
-    .members-content {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: repeat(1, 1fr);
-        text-align: justify;
-    }
-}
-
 /* footer */
-
 footer {
     width: 100%;
     margin: 0 auto;
